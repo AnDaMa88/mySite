@@ -93,9 +93,11 @@ form {
   /* Styles for small mobile screens */
   h1 {
   font-size: 2.4rem;
-}
-nav {
-  font-size: 1.6rem;       
-   
-}
+  }
+  nav {
+    font-size: 1.6rem;       
+  }
+  header {
+    padding: 10px;
+  }
 }
