@@ -89,15 +89,29 @@ form {
     }
   }
 
-@media (max-width: 480px) {
+@media (max-width: 550px) {
   /* Styles for small mobile screens */
   h1 {
-  font-size: 2.4rem;
-  }
-  nav {
-    font-size: 1.6rem;       
-  }
-  header {
-    padding: 10px;
-  }
+  font-size: 3.6rem;
+}
+nav {
+ 	font-size: 2.4rem;
+	margin-right: 1rem;       
+   
+}
+header {
+      display: flex;
+      justify-content: center;
+      align-items: center;  
+      position: fixed;
+      top: 0;
+      background-color: gray;
+      width: 100%;
+      height: 20rem;
+      padding: 0 50;   
+    }
+#header-img{
+  width: 80px;  
+	margin-left: 1rem;
+}
 }
